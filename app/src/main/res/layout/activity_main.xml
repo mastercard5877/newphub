@@ -6,13 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
 
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginBottom="231dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Phub"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Phub" />
+
+        <Button
+            android:id="@+id/Xvid"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="Xvid" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Switch" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
