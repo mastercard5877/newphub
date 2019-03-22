@@ -21,18 +21,20 @@
             android:id="@+id/Phub"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:text="Phub" />
+            android:onClick="PhubClicked"
+            android:text="@string/ph" />
 
         <Button
             android:id="@+id/Xvid"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:text="Xvid" />
+            android:onClick="XvidClicked"
+            android:text="@string/xv" />
 
         <Switch
-            android:id="@+id/switch1"
+            android:id="@+id/Vpn"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:text="Switch" />
+            android:text="@string/vpn" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

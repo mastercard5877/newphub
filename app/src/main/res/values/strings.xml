@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="ph">PornHub</string>
+    <string name="xv">Xvideo</string>
+    <string name="vpn">vpn</string>
+
 </resources>
